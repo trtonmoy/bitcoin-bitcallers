@@ -624,3 +624,31 @@ Feature
   width:100%;
   max-width:500px
 }
+
+ .banner-info {
+    position: relative;
+    z-index: 999;
+    margin-top: 79px;
+   
+}
+
+
+@media screen and (max-width:768px){
+  .banner-info {
+    position: relative;
+    z-index: 999;
+    margin-top: 79px;
+     z-index: 1;
+}
+header .navbar-collapse {
+    position: absolute;
+    top: 118px!important;
+    left: 0px;
+    width: 100%;
+    background: rgb(43, 43, 43);
+    z-index: 10;
+    height: 400px;
+    
+}
+  
+}
